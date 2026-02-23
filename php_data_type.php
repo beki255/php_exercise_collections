@@ -13,4 +13,7 @@ echo "</br>";
 var_dump($d);
 echo "</br>";
 var_dump($e);
+echo "</br>";
+$bl=$b==$c;
+var_dump($bl);
 ?>
