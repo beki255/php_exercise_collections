@@ -15,8 +15,8 @@ function sta(){
     $z++;
 }
 sta();
-echo "</br>"; 
+echo "<br>"; 
 sta();
-echo "</br>"; 
+echo "<br>"; 
 sta();
 ?>
