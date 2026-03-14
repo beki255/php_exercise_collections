@@ -1,6 +1,6 @@
 <?php
-$compro=array("php","html","java");
+$compro=array("php","html","java","css","js","python");
 foreach($compro as $values ){
-    echo "$values <br>";
+    echo "language: $values <br>";
 }
 ?>
