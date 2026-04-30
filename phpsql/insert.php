@@ -3,8 +3,8 @@
     ID:<input type="number" name="id"><br>
     Name:<input type="text" name="name"><br>
     Age:<input type="number" name="age"><br>
-    Gender:<input type="radio" name="gender">MALE<br>
-           <input type="radio" name="gender">FEMALE<br>
+    Gender:<input type="radio" name="gender" value="MALE">MALE<br>
+           <input type="radio" name="gender" value="FEMALE">FEMALE<br>
         <button type="submit" name="submit">insert</button>
 </form>
 <?php
