@@ -3,13 +3,14 @@
     ID:<input type="number" name="id"><br>
     Name:<input type="text" name="name"><br>
     Age:<input type="number" name="age"><br>
-    Gender:<input type="text" name="gender"><br>
-    <button type="submit" name="submit">insert</button>
+    Gender:<input type="radio" name="gender">MALE<br>
+           <input type="radio" name="gender">FEMALE<br>
+        <button type="submit" name="submit">insert</button>
 </form>
 <?php
 if(isset($_POST['submit'])){
     $id=$_POST['id'];
-    $name=$_POST['submit'];
+    $name=$_POST['name'];
     $age=$_POST['age'];
     $gender=$_POST['gender'];
     $stmt = $conn->prepare("INSERT INTO student VALUES (?, ?, ?, ?)");
