@@ -1,0 +1,5 @@
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<student>
+    <name>Abel</name>
+    <age>21</age>
+</student>
