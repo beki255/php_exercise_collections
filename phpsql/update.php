@@ -1,4 +1,4 @@
-<?php include 'db.php'; ?>
+<!-- <?php include 'db.php'; ?>
  <form method="POST">
     ID: <input type="number" name="id"><br>
     New Name: <input type="text" name="name"><br>
@@ -16,7 +16,7 @@
     $stmt->execute();
     echo "Student updated successfully!";
 }
-?>
+?> -->
 
 
 
@@ -27,7 +27,7 @@
 
 
 
-<!-- <?php include 'db.php'; ?>
+<?php include 'db.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -158,4 +158,4 @@
 </div>
 
 </body>
-</html> -->
+</html>
