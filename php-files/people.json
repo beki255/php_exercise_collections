@@ -1,0 +1,63 @@
+[
+    {
+        "fname": "bereket",
+        "lname": "sahlemariam",
+        "email": "bereket2553@gmail.com",
+        "age": 66,
+        "course": [
+            "webII",
+            "ML",
+            "AI"
+        ],
+        "phone": "0912345678",
+        "city": "Gonder"
+    },
+    {
+        "fname": "abel",
+        "lname": "tesfaye",
+        "email": "abel@gmail.com",
+        "age": 30,
+        "course": [
+            "Networking",
+            "Security"
+        ],
+        "phone": "0922334455",
+        "city": "Addis Ababa"
+    },
+    {
+        "fname": "hana",
+        "lname": "alem",
+        "email": "hana@gmail.com",
+        "age": 25,
+        "course": [
+            "Database",
+            "Web"
+        ],
+        "phone": "0933445566",
+        "city": "Bahir Dar"
+    },
+    {
+        "fname": "dawit",
+        "lname": "kebede",
+        "email": "dawit@gmail.com",
+        "age": 28,
+        "course": [
+            "AI",
+            "ML"
+        ],
+        "phone": "0944556677",
+        "city": "Hawassa"
+    },
+    {
+        "fname": "selam",
+        "lname": "mulu",
+        "email": "selam@gmail.com",
+        "age": 22,
+        "course": [
+            "UI\/UX",
+            "Frontend"
+        ],
+        "phone": "0955667788",
+        "city": "Mekelle"
+    }
+]
