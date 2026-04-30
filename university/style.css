@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a73e8 0%, #2f5dff 100%);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    margin: 20px;
+}
+
+.card.wide {
+    max-width: 1000px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #1f3a8a;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 8px;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button,
+.button {
+    display: inline-block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #1a73e8;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background: #1558c7;
+}
+
+.menu {
+    display: grid;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+table th {
+    background: #f4f6f9;
+}
+
+.message {
+    margin-top: 16px;
+    color: #1a5d1a;
+}
+
+.message.error {
+    color: #d32f2f;
+}
+
+.footer-link {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.footer-link a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .card {
+        padding: 24px;
+    }
+}
