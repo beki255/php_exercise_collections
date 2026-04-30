@@ -1,6 +1,7 @@
 <hr>
 <h2>Student List</h2>
 <?php
+include 'insert-in-database.php'; 
 $sql = "SELECT * FROM student";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
@@ -11,7 +12,6 @@ if ($result->num_rows > 0) {
                 <th>Age</th>
                 <th>Gender</th>
             </tr>";
-
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
                 <td>{$row['id']}</td>
@@ -20,11 +20,9 @@ if ($result->num_rows > 0) {
                 <td>{$row['gender']}</td>
               </tr>";
     }
-
     echo "</table>";
 } else {
     echo "No students found";
 }
-
 $conn->close();
 ?>
