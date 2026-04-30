@@ -1,4 +1,4 @@
-<?php include 'db.php'; ?>
+<!-- <?php include 'db.php'; ?>
     <form method="POST">
     ID: <input type="number" name="id"><br>
     <button type="submit" name="delete">Delete</button>
@@ -12,6 +12,7 @@
     echo "Student deleted successfully!";
 }
 ?>
+ -->
 
 
 
@@ -33,8 +34,7 @@
 
 
 
-
-<!-- <?php include 'db.php'; ?>
+<?php include 'db.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -135,4 +135,4 @@
 </div>
 
 </body>
-</html> -->
+</html>
