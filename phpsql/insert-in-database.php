@@ -7,7 +7,6 @@ if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $age = $_POST['age'];
     $gender = $_POST['gender'];
-
     $sql = "INSERT INTO student (name, age, gender)
             VALUES ('$name', '$age', '$gender')";
     if ($conn->query($sql) === TRUE) {
